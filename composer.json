@@ -1,4 +1,17 @@
 {
+    "name": "homestead-software/coding-standards",
+    "type": "library",
+    "description": "This is a coding standards repository used in the projects of Homestead Software.",
+    "keywords": ["Symfony", "coding", "standards", "phpstan", "phpcs", "phpunit"],
+    "homepage": "https://github.com/homestead-software/coding-standards",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rob van der Lee",
+            "email": "epicsoftworks@gmail.com",
+            "homepage": "https://github.com/rvdlee"
+        }
+    ],
     "require-dev": {
         "phpstan/phpstan": "^2.1",
         "phpunit/phpunit": "^11.5",
