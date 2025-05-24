@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  php:
+    image: webdevops/php-dev:8.2-alpine
+    volumes:
+      - .:/var/www/html
+      - ~/.ssh:/root/.ssh:ro
